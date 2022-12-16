@@ -243,6 +243,15 @@ body {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
       }
+      .vertical-center2 {
+        margin: 0;
+        position: absolute;
+        left: -100px;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 60%;
+      }
       .vertical-center-header {
         margin: 0;
         right: 90%;
@@ -250,4 +259,13 @@ body {
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+      }
+      .radiuspic{
+        border-radius: 30px;
+        opacity: 80%;
+      }
+      .radiuspic2{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        opacity: 80%;
       }
